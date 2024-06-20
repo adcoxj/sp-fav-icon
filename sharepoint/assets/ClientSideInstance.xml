@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="SpFavIcon"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="8e505d32-0711-4565-82f0-481b374b06d6"
+        Properties="{&quot;favicon&quot;:&quot;https://centralhealthtx.sharepoint.com/sites/ENT-BrandCentral/Branding%20files/favicon.ico&quot;}">
+    </ClientSideComponentInstance>
+</Elements>
