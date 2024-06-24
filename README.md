@@ -19,20 +19,22 @@ Short summary on functionality and used technologies.
 
 ## Prerequisites
 
-> Any special pre-requisites?
+> ensure you have Microsoft SPFx framework installed (follow instructions below to get your environment set up)
+  - https://learn.microsoft.com/en-us/sharepoint/dev/spfx/set-up-your-development-environment
 
 ## Solution
 
 | Solution    | Author(s)                                               |
 | ----------- | ------------------------------------------------------- |
-| folder name | Author details (name, company, twitter alias with link) |
+| spfavicon | Author details (Jon Adcox, Central Health, @blayderunner) |
 
 ## Version history
 
 | Version | Date             | Comments        |
 | ------- | ---------------- | --------------- |
-| 1.1     | March 10, 2021   | Update comment  |
-| 1.0     | January 29, 2021 | Initial release |
+| 2.0.1.0 | March 10, 2021   | Added auto-increment build number  |
+| 1.1     | June 22, 2024   | Updated path to favicon  |
+| 1.0     | June 22, 2024 | Initial release |
 
 ## Disclaimer
 
@@ -45,14 +47,15 @@ Short summary on functionality and used technologies.
 - Clone this repository
 - Ensure that you are at the solution folder
 - in the command-line run:
-  - **npm install**
-  - **gulp serve**
-
-> Include any additional steps as needed.
+  - **npm i**
+  - **gulp bundle --ship**
+  - **gulp package-solution --ship**
+> Note: to use auto-version on build, review the following post
+  - Package SPFx solution with one command and automatically increase the version (https://spfx-app.dev/package-spfx-solution-with-one-command-and-automatically-increase-the-version)
 
 ## Features
 
-Description of the extension that expands upon high-level summary above.
+Add Favicon to Modern SharePoint Pages.
 
 This extension illustrates the following concepts:
 
