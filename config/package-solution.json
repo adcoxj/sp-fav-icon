@@ -1,46 +1,46 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
-  "solution": {
-    "name": "sp-fav-icon-client-side-solution",
-    "id": "8185058c-ff23-4390-9f07-aa7cfdd3cb98",
-    "version": "1.0.0.0",
-    "includeClientSideAssets": true,
-    "skipFeatureDeployment": true,
-    "isDomainIsolated": false,
-    "developer": {
-      "name": "",
-      "websiteUrl": "",
-      "privacyUrl": "",
-      "termsOfUseUrl": "",
-      "mpnId": "Undefined-1.19.0"
+    "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+    "solution": {
+        "name": "sp-fav-icon-client-side-solution",
+        "id": "8185058c-ff23-4390-9f07-aa7cfdd3cb98",
+        "version": "2.0.1.0",
+        "includeClientSideAssets": true,
+        "skipFeatureDeployment": true,
+        "isDomainIsolated": false,
+        "developer": {
+            "name": "",
+            "websiteUrl": "",
+            "privacyUrl": "",
+            "termsOfUseUrl": "",
+            "mpnId": "Undefined-1.19.0"
+        },
+        "metadata": {
+            "shortDescription": {
+                "default": "SPFavIcon description"
+            },
+            "longDescription": {
+                "default": "SPFavIcon description"
+            },
+            "screenshotPaths": [],
+            "videoUrl": "",
+            "categories": []
+        },
+        "features": [
+            {
+                "title": "Application Extension - Deployment of custom action",
+                "description": "Deploys a custom action with ClientSideComponentId association",
+                "id": "2689c18b-046a-45b6-a925-ff5872f45347",
+                "version": "1.0.0.0",
+                "assets": {
+                    "elementManifests": [
+                        "elements.xml",
+                        "ClientSideInstance.xml"
+                    ]
+                }
+            }
+        ]
     },
-    "metadata": {
-      "shortDescription": {
-        "default": "SPFavIcon description"
-      },
-      "longDescription": {
-        "default": "SPFavIcon description"
-      },
-      "screenshotPaths": [],
-      "videoUrl": "",
-      "categories": []
-    },
-    "features": [
-      {
-        "title": "Application Extension - Deployment of custom action",
-        "description": "Deploys a custom action with ClientSideComponentId association",
-        "id": "2689c18b-046a-45b6-a925-ff5872f45347",
-        "version": "1.0.0.0",
-        "assets": {
-          "elementManifests": [
-            "elements.xml",
-            "ClientSideInstance.xml"
-          ]
-        }
-      }
-    ]
-  },
-  "paths": {
-    "zippedPackage": "solution/sp-fav-icon.sppkg"
-  }
+    "paths": {
+        "zippedPackage": "solution/sp-fav-icon.sppkg"
+    }
 }

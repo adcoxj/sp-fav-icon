@@ -31,24 +31,26 @@ export default class SpFavIconApplicationCustomizer
     }else{
       let url = "https://centralhealthtx.sharepoint.com/sites/ENT-BrandCentral/Branding%20files/favicon.ico";
       const link = document.getElementById('favicon');
-      if(link ==null)
+      window.onload = function()
       {
-        const link = document.createElement("link");
-        link.setAttribute('type', 'image/x-icon');
-        link.setAttribute('rel', 'shortcut icon');
-        link.setAttribute('href', url);
-        let head = document.head;
-        head.appendChild(link);
-      }
-      else{
-        link.setAttribute('type', 'image/x-icon');
-        link.setAttribute('rel', 'shortcut icon');
-        link.setAttribute('href', url);
-        let head = document.head;
-        head.appendChild(link);
+        if(link ==null)
+        {
+          const link = document.createElement("link");
+          link.setAttribute('type', 'image/vnd.microsoft.icon');
+          link.setAttribute('rel', 'shortcut icon');
+          link.setAttribute('href', url);
+          let head = document.head;
+          head.appendChild(link);
+        }
+        else{
+          link.setAttribute('type', 'image/vnd.microsoft.icon');
+          link.setAttribute('rel', 'shortcut icon');
+          link.setAttribute('href', url);
+          let head = document.head;
+          head.appendChild(link);
+        }
       }
     }
-
     return Promise.resolve();
   }
 }
