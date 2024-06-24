@@ -32,7 +32,7 @@ Short summary on functionality and used technologies.
 
 | Version | Date             | Comments        |
 | ------- | ---------------- | --------------- |
-| 2.0.1.0 | March 10, 2021   | Added auto-increment build number  |
+| 2.0.1.0 | June 24, 2024   | Added auto-increment build number  |
 | 1.1     | June 22, 2024   | Updated path to favicon  |
 | 1.0     | June 22, 2024 | Initial release |
 
